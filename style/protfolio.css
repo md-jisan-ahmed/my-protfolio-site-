@@ -36,7 +36,7 @@
 }
 .section-description{
     color: rgba(117, 117, 117, 1);
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -94,6 +94,10 @@ nav li a {
     font-weight: bold;
     font-size: 60px;
 }
+.banner-description{
+    font-size: 20px;
+    color: rgba(117, 117, 117, 1);
+}
 .download{
     height: 15px;
     margin-right:5px;
@@ -142,8 +146,9 @@ main{
 .my-skill{
     text-align: center;
     justify-content: center;
-    margin-top: 200px;
-    margin-bottom: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 60px;
 }
 .personal-skill{
     display: flex;
@@ -153,9 +158,39 @@ main{
 }
 .skill-card{
     margin-top:50px;
-    padding: 20px;
-    height: 280px;
-    width: 700px;
+    padding: 25px;
+    height: 320px;
+    width: 350px;
     border-radius: 15px;
+    font-size: 18px;
     box-shadow: 0px 6px 50px 0px rgba(15, 4, 4, 0.06);
+}
+
+
+/* my education and experience */
+
+.summary-my-resume{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 200px;
+    padding: 60px;
+}
+.edu-exp{
+    display: flex;
+    gap: 100px;
+}
+.edu{
+    font-size: 30px;
+}
+.edu-exp-card{
+    height: 200px;
+    width: 520px;
+    text-align: left;
+}
+.edu-exp-card h4{
+    font-size: 20px;
+}
+.edu-exp-card p{
+    margin: 0;
+    padding: 5px;
 }
